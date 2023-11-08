@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&display=swap');
+@font-face {
+    font-family: 'Report';
+    src: url("../assets/fonts/1942.ttf");
+}
+
+h1 {
+    color: red;
+    font-family: 'Report';
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
